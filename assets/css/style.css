@@ -145,10 +145,20 @@ a {
     line-height: 2rem; /* 125% */
 }
 .client .images {
-    margin-top: 9.6rem;
+    margin-top: 70px;
     align-items: center;
 }
-
+.client .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 40px;
+    border-radius: 12px;
+    /* background: orange; */
+}
+.client .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
 /* ===========Guides========== */
 .guides {
     margin-top: 40px;
